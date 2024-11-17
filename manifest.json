@@ -1,0 +1,11 @@
+{
+	"id": "mofacts",
+	"name": "MoFacts",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Adds a corresponding icons to factorio item names",
+	"author": "SMG3zx",
+	"authorUrl": "https://obsidian.md",
+	"fundingUrl": "https://obsidian.md/pricing",
+	"isDesktopOnly": false
+}
