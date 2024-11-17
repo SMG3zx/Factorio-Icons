@@ -1,22 +1,38 @@
-# vscode
-.vscode 
+# Node.js dependencies
+node_modules/
 
-# Intellij
-*.iml
-.idea
-
-# npm
-node_modules
-
-# Don't include the compiled main.js file in the repo.
-# They should be uploaded to GitHub releases instead.
+# Build output
+*.js
+*.js.map
+dist/
+build/
+out/
 main.js
 
-# Exclude sourcemaps
-*.map
+# Logs and temporary files
+*.log
+*.tmp
+*.cache
 
-# obsidian
-data.json
+# Dependency lock files (optional, include if not tracking lockfiles)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
 
-# Exclude macOS Finder (System Explorer) View States
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# System-specific files
 .DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Backup and swap files
+*.bak
+*.swp
+*.swm
