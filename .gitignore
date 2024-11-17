@@ -7,7 +7,6 @@ node_modules/
 dist/
 build/
 out/
-main.js
 
 # Logs and temporary files
 *.log
