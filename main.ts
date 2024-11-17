@@ -8,7 +8,8 @@ import {
 	ViewUpdate,
 	DecorationSet,
 	Decoration,
-	WidgetType
+	WidgetType,
+	ViewPlugin
 } from '@codemirror/view'
 
 // Base URL for Factorio wiki images
@@ -109,6 +110,12 @@ class FactorioIconEditorPlugin implements PluginValue {
 export default class MainPlugin extends Plugin {
 	async onload() {
 		console.log('Loading Factorio Icons plugin');
+
+		this.registerEditorExtension([
+			ViewPlugin.fromClass(FactorioIconEditorPlugin, {
+				decorations: (v) => v.decorations,
+			}),
+		]);
 	}
 
 	onunload() {
