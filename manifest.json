@@ -1,11 +1,10 @@
 {
-	"id": "mofacts",
-	"name": "MoFacts",
+	"id": "factorio-icons",
+	"name": "Factorio Icons",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Adds a corresponding icons to factorio item names",
+	"description": "Adds corresponding icons to factorio item names",
 	"author": "SMG3zx",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"authorUrl": "https://github.com/SMG3zx",
 	"isDesktopOnly": false
 }
