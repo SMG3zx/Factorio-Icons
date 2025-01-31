@@ -125,7 +125,7 @@ const FACTORIO_ITEMS_32px: { [key: string]: string } = {
 	'low density structure': 'Low_density_structure.png/32px-Low_density_structure.png',
 	'rocket fuel': 'Rocket_fuel.png/32px-Rocket_fuel.png',
 	'rocket part': 'Rocket_part.png/32px-Rocket_part.png',
-	'burning mining drill': 'Burning_mining_drill.png/32px-Burning_mining_drill.png',
+	'burner mining drill': 'Burner_mining_drill.png/32px-Burner_mining_drill.png',
 	'electric mining drill': 'Electric_mining_drill.png/32px-Electric_mining_drill.png',
 	'big mining drill': 'Big_mining_drill.png/32px-Big_mining_drill.png',
 	'offshore pump': 'Offshore_pump.png/32px-Offshore_pump.png',
